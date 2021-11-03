@@ -1,0 +1,122 @@
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: center;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.h2 {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  background: #ce2be4;
+  font-size: 30px;
+  margin: 25;
+}
+
+p,
+.bottomRad {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.topRad {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.h3FirstPart {
+  text-align: right;
+  padding: 10px;
+  background: rgb(255, 139, 6);
+  font-size: 25px;
+}
+
+.h3SecondPart {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  background-color: salmon;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url("images/blackBackgroundImage.webp");
+
+  background-color: #cccccc;
+  color: rgb(94, 116, 116);
+}
+.hackermans img {
+  height: 400px;
+  width: auto;
+  float: right;
+}
+
+.chainsOfOppression img {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  float: left;
+}
+
+.jackOfAllTrades img {
+  height: 400px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  padding: 40px;
+  background: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
